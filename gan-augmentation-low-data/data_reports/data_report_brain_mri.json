@@ -1,0 +1,35 @@
+{
+ "train_per_class": [
+  1400,
+  1400,
+  1400,
+  1400
+ ],
+ "test_per_class": [
+  400,
+  400,
+  400,
+  400
+ ],
+ "exact_duplicates_train_vs_test": 0,
+ "near_duplicates_train_vs_test": 482,
+ "near_threshold_bits_of_256": 4,
+ "exact_duplicates_within_train": 171,
+ "exact_duplicates_within_test": 16,
+ "pool_size": 4976,
+ "pool_per_class": [
+  1396,
+  1286,
+  932,
+  1362
+ ],
+ "dataset": "brain_mri",
+ "classes": [
+  "glioma",
+  "meningioma",
+  "notumor",
+  "pituitary"
+ ],
+ "note": "Test set has 1600 images, the official Kaggle Testing split has 1311. Report the exact count and where your copy came from.",
+ "max_regime": 932
+}
